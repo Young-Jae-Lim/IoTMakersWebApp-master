@@ -5,7 +5,7 @@
 
     function invokeEventStreamAPI(deviceId) {
 
-        // 태그스트림 목록 조회 URI
+        // 이벤트 목록 조회 URI
         var API_URI2 = '/api/v1/device/'+deviceId+'/deviceEvents';
         
         $.ajax('https://iotmakers.kt.com' + API_URI2, {

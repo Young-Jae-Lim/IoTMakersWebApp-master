@@ -6,7 +6,7 @@
 
     function invokeEventLastLogAPI(eventId,startEvent) {
 
-        // 태그스트림 목록 조회 URI
+        // 이벤트 로그 목록 조회 URI
         var API_URI2 = '/api/v1/event/logByEventId/'+eventId+'/'+startEvent;
         
         $.ajax('https://iotmakers.kt.com' + API_URI2, {
